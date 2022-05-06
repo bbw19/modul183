@@ -1,0 +1,23 @@
+body {
+    width: 100%
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50%;
+    text-align: center;
+}
+
+.carousel {
+    max-width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 640px) {
+    video {
+        width: 100%;
+        height: auto;
+      }
+  }
