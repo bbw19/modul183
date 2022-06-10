@@ -1,6 +1,40 @@
 body {
-    width: 100%
-}
+    width: 100%;
+  }
+  
+  .banner {
+    font-family: 'Alatsi', sans-serif;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 415px;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+  }
+  
+  .title {
+    font-size: 10vw;
+    color: white;
+  }
+  
+  canvas {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -99;
+    position: absolute;
+    max-height: 415px;
+  }
 
 .content {
     margin-left: auto;
@@ -9,10 +43,18 @@ body {
     text-align: center;
 }
 
+.vid-box {
+    z-index: 10;
+}
+
 .carousel {
     max-width: 80% !important;
     margin-left: auto;
     margin-right: auto;
+}
+
+.caroussel-item img{
+    max-height: 100vh;
 }
 
 @media screen and (max-width: 640px) {
